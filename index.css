@@ -1,0 +1,14 @@
+*{
+	background: #fff;
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: helvetica, arial;
+}
+header{
+	border: 2px solid black;
+	background:red; 
+}
