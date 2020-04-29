@@ -49,10 +49,15 @@ main{
 	align-items: center;
 }
 .video-info{
-	background: red;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	padding:0 95px;
+	margin: 15px;
+}
+.stat-icons{
 	display: flex;
 	flex-direction: row;
-	padding:0 95px;
 }
 span{
 	padding:10px;
