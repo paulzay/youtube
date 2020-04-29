@@ -12,7 +12,7 @@ body{
 }
 .container{
 	display: grid;
-	grid-template-columns: 1fr 3fr;
+	grid-template-columns: 3fr 1fr;
 	grid-template-areas: 
 		"header header"
 		"main aside"
@@ -31,18 +31,41 @@ body{
 		"footer";
 	}
 }
+
 header {
 	grid-area: header;
+
 }
 main{
 	grid-area: main;
-
+	width: 100%;
+	height: 100vh;
+	border:2px solid black;
 }
+.video-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.video-info{
+	background: red;
+	display: flex;
+	flex-direction: row;
+	padding:0 95px;
+}
+span{
+	padding:10px;
+}
+ 
 aside{
 	grid-area: aside;
+	border:2px solid red;
 }
 footer{
 	grid-area: footer;
+		border:2px solid green;
+		height: 20vh;
 }
 .nav-bar{
 	height: 8vh;
@@ -53,8 +76,5 @@ footer{
 	align-items: center;
 	background: #fff;
 }
-.main-content{
-	background-color: #fed124;
-	border: 2px solid black;
-}
+ 
 
