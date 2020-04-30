@@ -8,7 +8,7 @@
 
 body{
 	font-family: helvetica, arial;
-	background: #ddd;
+	background:rgba(230,230,230, .8);
 }
 .container{
 	display: grid;
@@ -20,6 +20,7 @@ body{
 	gap: 15px;
 	grid-template-rows: auto;
 }
+
 
 @media (max-width: 600px) {
 	.container {
@@ -41,7 +42,6 @@ main{
 	grid-area: main;
 	width:100%;
 	height:auto;
-	background:#fff;
 	margin:0 1%;
 	border-radius: 3px;
 }
@@ -76,6 +76,7 @@ main{
  span{
  	padding: 2px 10px;
  	color: #333;
+ 	cursor: pointer;
  }
  .detailed-description{
 	padding: 1em;
@@ -87,6 +88,7 @@ main{
 	border-radius: 3px;
 	box-shadow: 0 8px 6px -6px #444;
 }
+
 .detailed-description p{
 padding: 5px;
 }
@@ -122,7 +124,7 @@ aside{
 	background: #fff;
 	border-radius: 3px;
 	box-shadow: 0 8px 6px -6px #444;
-	margin-right:1%; 
+	margin-right:5%; 
 }
 .upnext-video{
 	display: flex;
