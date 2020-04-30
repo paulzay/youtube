@@ -181,10 +181,44 @@ aside{
 
 footer{
 	grid-area: footer;
-	border:2px solid green;
 	height: 20vh;
+	background: white;
+	border-top: 1px solid  #999;
 }
 footer a{
 	text-decoration: none;
-	;
 }
+.select-label{
+	margin-left:7px; 
+}
+.upper-division{
+	width:80%;
+	margin-left: 10%;
+	border-bottom:1px solid #999; 
+	padding-bottom:1em; 
+}
+.span-footer>span{
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+footer ul{
+	margin-bottom:1em; 
+	margin: 1em 0 0 10%;
+
+}
+footer ul>li{
+	display: inline-block;
+	padding-left: 1em;
+	list-style-type: none;
+	text-decoration: none;
+}
+footer ul:nth-child(3){
+	font-size: .8em;
+}
+
+footer a{
+	color:#222;
+}
+
+
