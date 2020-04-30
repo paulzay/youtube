@@ -60,6 +60,7 @@ main{
 	border-radius: 3px;
 	box-shadow: 0 8px 6px -6px #444;
 
+
 }
 .stat-icons{
 	display: flex;
@@ -156,4 +157,30 @@ footer{
 	align-items: center;
 	background: #fff;
 }
+.nav-bar input[type=text] {
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 8px;
+	width: 45vw;
+	color: lightslategray;
+}
+.nav-right{
+	display: flex;
+	align-items: flex-end;
+}
+.search-button {
+	width: 20px; 
+	height: 20px;
+	float: right;
 
+  }
+.searchbar button:hover {
+	background: rgb(218, 204, 204);
+}
+  
+.searchbar {
+	float: left;
+	
+	margin-left: 25%;
+	background-color: mediumblue;
+}
