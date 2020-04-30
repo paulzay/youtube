@@ -109,9 +109,7 @@ main{
 	float: right;
 	justify-content: space-between;
 }
- .emotion-icon{
- 	
- }
+ 
  span,i{
  	padding: 0 10px;
  	color: #333;
@@ -185,4 +183,8 @@ footer{
 	grid-area: footer;
 	border:2px solid green;
 	height: 20vh;
+}
+footer a{
+	text-decoration: none;
+	;
 }
