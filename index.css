@@ -5,7 +5,9 @@
 	display: flex;
 	flex-direction: column;
 }
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: helvetica, arial;
 	background: #ddd;
@@ -41,6 +43,65 @@ main{
 	width: 100%;
 	height: auto;
 	border:2px solid black;
+}
+nav{
+	position: fixed;
+	top: 0;
+	height: 8vh;
+	display: flex;
+	flex-direction: row;
+	background: rgb(224, 17, 17);
+}
+
+.hamburger-menu{
+	/*
+	margin-left: 20px;
+	margin-top: 10px;
+	
+*/
+background-color: pink;
+}
+
+.yt-logo{
+	
+	width: 100px;
+	height: 24px;
+	background-color: maroon;
+}
+
+.fa-video,
+.fa-th,
+.fa-bell,
+.fa-user {
+  color: #363636;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+nav input[type=text] {
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 8px;
+	width: 45vw;
+	color: lightslategray;
+}
+.searchbar button {
+	width: 20px; 
+	height: 20px
+
+  }
+.searchbar button:hover {
+	background: rgb(218, 204, 204);
+}
+  
+.searchbar {
+	float: left;
+	margin-left: 25%;
+	background-color: mediumblue;
+}
+.nav-right{
+	background-color: rgb(139, 16, 143);
+
 }
 .video-wrapper{
 	display: flex;
@@ -124,13 +185,5 @@ footer{
 	border:2px solid green;
 	height: 20vh;
 }
-.nav-bar{
-	height: 8vh;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-content: center;
-	align-items: center;
-	background: #fff;
-}
+
 

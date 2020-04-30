@@ -1,35 +1,36 @@
  <!DOCTYPE html>
- 
+ <html lang="en">
 	<head>
-	    <title>Youtube</title>
+		
+		<meta charset="utf-8" />
+		<title>Youtube</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link href="./assets//fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container">
 			<header class="header">
-				<navbar class="nav-bar">
-					<div class="more-option">
-						<i class="fas fa-bars"></i>
+				<nav>
+					<div class="nav-left">
+						<span><i class="fas fa-bars fa-lg hamburger-menu"></i></span>
+						<span><a href="https://www.youtube.com/"><img src="./img/youlogo.jpeg" class="yt-logo" alt="Youtube logo"/></a></span>
 					</div>
-	
-					<div> 
-						<p>Youtube<img src="" alt="Youtube"></p>
-					</div>
-	
-					<form class="search-form">
-						<input type="text" placeholder="Search" class="search-input" />
-						<button  class="search-button"><i class="fas fa-search"></i></button>
-					</form>
-	
-					<div class="upload-button">
-						<p>Upload</p>
-					</div>
-	
 					<div>
-					<button class="sign-in">Sign in</button>
+						<form class="searchbar">
+							<input type="text" placeholder="Search" name="searchbar"/>
+							<button type="submit" ><i class="fa fa-search fa-lg"></i></button> 
+						</form>
+
 					</div>
-				</navbar>
+					<div class="nav-right">
+						<i class="fas fa-video fa-lg"></i>
+						<i class="fas fa-th fa-lg"></i>
+						<i class="fas fa-bell fa-lg"></i>
+						<i class="fas fa-user fa-lg"></i>
+					</div>
+				</nav>
+				
 			</header>
 	
 			<main class="main-content">
