@@ -37,6 +37,12 @@ header {
 .yt-logo{
 	width: 100px;
 	height: 25px;
+	margin-left: -150px;
+}
+.yt-logo-f{
+	width: 100px;
+	height: 25px;
+	margin-top: 15px;
 }
 .nav-bar{
 	 height: 8vh;
