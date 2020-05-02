@@ -12,7 +12,7 @@
 
 [Live Demo Link](https://paulzay.github.io/youtube/)
 
-
+![Screenshot (327)](https://user-images.githubusercontent.com/29974825/80791827-8b363a00-8b9b-11ea-9d90-89618b15749d.png) 
 
 # Getting Started 🚀
 
