@@ -122,11 +122,11 @@ main{
  span,i{
  	padding: 0 10px;
  	color: #333;
-
  	 }
+  
  span,i,img{
- 	 	cursor: pointer;
- }
+ 	cursor: pointer;
+  }
  .detailed-description{
 	padding: 1em;
 	line-height: 1.4;
@@ -137,7 +137,6 @@ main{
 	border-radius: 3px;
 	box-shadow: 0 8px 6px -6px #444;
 }
-
 .detailed-description p{
 	padding: 5px;
 }
