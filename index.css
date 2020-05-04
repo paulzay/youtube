@@ -122,11 +122,11 @@ main{
  span,i{
  	padding: 0 10px;
  	color: #333;
-
- }
+ 	 }
+  
  span,i,img{
  	cursor: pointer;
- }
+  }
  .detailed-description{
 	padding: 1em;
 	line-height: 1.4;
@@ -140,6 +140,7 @@ main{
 .detailed-description p{
 	padding: 5px;
 }
+
 .author{
 	width: 100%;
 	height: 50px;
@@ -147,11 +148,15 @@ main{
 	flex-direction: row;
 	justify-content: space-between;
 }
-.author img{
-	width: 20%;
-	height: 200%;
-	margin-top: -1em;
-}
+ .subscribe-btn{
+ 		width: 120px;
+ 		height: 40px;
+ 		background: rgba(255,0,0,.8);
+ 		color: white;
+ 		border: none;
+ 		border-radius:10px;
+ 		cursor: pointer;
+ }
 .author i{
 	margin-top: 6px;
 	font-size:50px;
