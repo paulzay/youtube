@@ -113,7 +113,7 @@ main{
 	display: flex;
 	flex-direction: column;
 	margin:10px auto;
-	width: 80%;
+	width: 83%;
 	border-radius: 3px;
 	box-shadow: 0 8px 6px -6px #444;
 }
@@ -144,7 +144,7 @@ main{
 	line-height: 1.4;
 	color: #333;
 	background: #fff;
-	width: 80%;
+	width: 83%;
 	margin:0 auto;
 	border-radius: 3px;
 	box-shadow: 0 8px 6px -6px #444;
@@ -191,7 +191,7 @@ a.show-more{
 .loading{
 	margin: 10px auto;
 	background-color: #fff;
-	width: 80%;
+	width: 83%;
 	height: 30vh;
 	border-radius: 3px;
 	box-shadow: 0 8px 6px -6px #444;
@@ -271,3 +271,6 @@ footer a{
 	color:#222;
 }
 
+.main-footer{
+	padding-top: 25px;
+}
