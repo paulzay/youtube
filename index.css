@@ -125,9 +125,12 @@ main{
 	justify-content: space-between;
 }
 .emotion-icon{
-	padding-bottom: 1em; 
+	margin-bottom: 25px;
 }
- 
+.emotion-icon img{
+	width: 25x;
+	height: 25px;
+}
  span,i{
  	padding: 0 10px;
  	color: #333;
