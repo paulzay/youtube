@@ -49,7 +49,7 @@ header {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	background: #fff; /**/
+	background: #fff;  
 }
 .nav-bar input[type=text] {
  	font-size: 15px;
@@ -235,6 +235,9 @@ footer{
 	background: white;
 	border-top: 1px solid  #999;
 }
+.main-footer{
+	padding-top: 25px;
+}
 footer a{
 	text-decoration: none;
 }
@@ -269,8 +272,4 @@ footer ul:nth-child(3){
 
 footer a{
 	color:#222;
-}
-
-.main-footer{
-	padding-top: 25px;
 }
