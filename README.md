@@ -55,7 +55,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - We'd like to thank our standup group for reviewing our project.
-- We also acknowledge Microverse for being awesome.
 - Lastly we appreciate The Odin Project for creating the project.
 
 ## 📝 License
